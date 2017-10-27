@@ -20,6 +20,8 @@
     
     UILabel *label=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
     label.text=@"hhhh ";
+    label.backgroundColor=[UIColor redColor];
+    
     [self.view addSubview:label];
     
 }
